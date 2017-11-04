@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+h2 {
+	color: white;
+}
+
+footer {
+      background-color: #133c69;
+      color: white;
+      margin: 20px;
+      margin-bottom: 0px;
+      padding: 50px;
+}
+
+#navbar {
+	box-shadow:  0px 5px 10px #b38f00;
+	background: #133c69;
+	margin-top: 15px;
+	margin: 20px;
+}
+
+#banner {
+	width: 100%;
+}
+
+.jumbotron {
+	box-shadow:  0px 5px 10px #b38f00;
+	background: #25578c;
+	margin: 20px;
+}
+
+/* Color oro = b38f00 */
