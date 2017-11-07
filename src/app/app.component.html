@@ -1,4 +1,18 @@
 <div align="center">
   <a routerLink="/home"></a>
-  <router-outlet></router-outlet>
+
+  <!-- Banner y Barra de navegacion -->
+	<header>
+		<div class="container">
+			<app-navbar></app-navbar>
+		</div>
+	</header>
+
+	<router-outlet></router-outlet>
+
+	<!-- Footer -->
+	<section>
+		<app-footer></app-footer>
+	</section>
+
 </div>

@@ -12,6 +12,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 
 import { appRoutes } from './routes/routes';
 import { FooterComponent } from './footer/footer.component';
+import { CienciasBasicasComponent } from './ciencias-basicas/ciencias-basicas.component';
+import { RegistroComponent } from './registro/registro.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     AsesoriasComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    CienciasBasicasComponent,
+    RegistroComponent
   ],
   imports: [
     BrowserModule,

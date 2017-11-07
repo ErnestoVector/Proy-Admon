@@ -1,14 +1,20 @@
 <!-- Jumbotron -->
 <div class="container-fluid">
-	<img id="banner" src="/assets/img/MainBanner.png" alt="">
+	<img id="banner" src="/assets/img/MainBanner.png">
 </div>
 
 <!-- Navbar -->
 <nav id="navbar" class="navbar navbar-inverse">
 	<div class="container">
-		
 
 		<ul class="nav navbar-nav">
+
+			
+			<li>
+				<a routerLink="/home">
+					<i class="glyphicon glyphicon-home"></i>
+				</a>
+			</li>
 			
 			
 			<li class="dropdown">
@@ -17,7 +23,7 @@
 					<span class="caret"></span>
 				</a>
 				<ul class="dropdown-menu">
-					<li><a href="#">Ciencias Básicas</a></li>
+					<li><a href="/ciencias-basicas">Ciencias Básicas</a></li>
 					<li><a href="#">Programación</a></li>
 					<li><a href="#">Electrónica</a></li>
 					<li><a href="#">Ciencias y Humanidades</a></li>
@@ -25,11 +31,11 @@
 			</li>
 			
 			<li>
-				<a href="#">Login</a>
+				<a href="/login">Login</a>
 			</li>
 			
 			<li>
-				<a href="#">Registro</a>
+				<a href="/registro">Registro</a>
 			</li>
 
 			<li>

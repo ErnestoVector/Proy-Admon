@@ -1,4 +1,4 @@
-#log-cont {
+#reg-cont {
 	border-radius: 5px;
 	width: 35%;
 	min-width: 200px;
@@ -11,16 +11,9 @@
 	margin: 50px;
 }
 
-#btn-log {
-	width: 75%;
-	border-radius: 5px;
-	margin-bottom: 5px;
-	margin-top: 25px;
-	padding: 5px;
-}
-
 #btn-reg {
-	width: 50%;
+	width: 70%;
 	border-radius: 5px;
 	padding: 5px;
+	margin-top: 35px;
 }
