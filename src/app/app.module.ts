@@ -14,6 +14,9 @@ import { appRoutes } from './routes/routes';
 import { FooterComponent } from './footer/footer.component';
 import { CienciasBasicasComponent } from './ciencias-basicas/ciencias-basicas.component';
 import { RegistroComponent } from './registro/registro.component';
+import { ProgramacionComponent } from './programacion/programacion.component';
+import { ElectronicaComponent } from './electronica/electronica.component';
+import { CienciasHumanidadesComponent } from './ciencias-humanidades/ciencias-humanidades.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { RegistroComponent } from './registro/registro.component';
     NavbarComponent,
     FooterComponent,
     CienciasBasicasComponent,
-    RegistroComponent
+    RegistroComponent,
+    ProgramacionComponent,
+    ElectronicaComponent,
+    CienciasHumanidadesComponent
   ],
   imports: [
     BrowserModule,
