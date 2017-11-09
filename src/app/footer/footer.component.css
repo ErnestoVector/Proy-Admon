@@ -1,0 +1,9 @@
+#img-foot {
+	width: 70%;
+	max-width: 100px;
+	height: auto;
+}
+
+.invert {
+	filter: invert(100%);
+}
