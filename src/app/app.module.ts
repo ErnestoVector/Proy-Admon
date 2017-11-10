@@ -17,6 +17,7 @@ import { RegistroComponent } from './registro/registro.component';
 import { ProgramacionComponent } from './programacion/programacion.component';
 import { ElectronicaComponent } from './electronica/electronica.component';
 import { CienciasHumanidadesComponent } from './ciencias-humanidades/ciencias-humanidades.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CienciasHumanidadesComponent } from './ciencias-humanidades/ciencias-hu
     RegistroComponent,
     ProgramacionComponent,
     ElectronicaComponent,
-    CienciasHumanidadesComponent
+    CienciasHumanidadesComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,

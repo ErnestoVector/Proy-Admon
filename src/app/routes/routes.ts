@@ -3,7 +3,8 @@ import { HttpModule } from '@angular/http'
 
 import { AppComponent } from '../app.component';
 import { LoginComponent } from '../login/login.component';
-import { RegistroComponent } from '../registro/registro.component'
+import { RegistroComponent } from '../registro/registro.component';
+import { ContactoComponent } from '../contacto/contacto.component'
 import { HomeComponent } from '../home/home.component';
 import { AsesoriasComponent } from '../asesorias/asesorias.component';
 import { CienciasBasicasComponent } from '../ciencias-basicas/ciencias-basicas.component';
@@ -50,6 +51,10 @@ export const appRoutes: Routes = [
 	{
 		path: 'ciencias-humanidades',
 		component: CienciasHumanidadesComponent
+	},
+	{
+		path: 'contacto',
+		component: ContactoComponent
 	}
 	//Continuar comn las rutas, y actualizar la webapp con las rutas nuevas...
 
