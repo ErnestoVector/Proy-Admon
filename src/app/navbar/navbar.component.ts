@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+	//De esta variable depende si se muestra o no la seccioón de comentarios
+	//Crear función que genere true si es que está loggeado
+	private isLoggedIn: Boolean = false;
 
-  ngOnInit() {
-  }
+	constructor() { }
+
+	ngOnInit() {
+	}
 
 }

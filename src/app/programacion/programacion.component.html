@@ -19,6 +19,7 @@
 					<th>Horario</th>
 					<th>Salón</th>
 					<th>Ubicación</th>
+					<th>Puntuación</th>
 				</tr>
 			</thead>
 			<!-- Cuerpo de la tabla -->
@@ -30,16 +31,21 @@
 					<td>12:00 - 2:00 pm</td>
 					<td>I202</td>
 					<td>Agregar Imagen</td>
+					<td>3.5</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 
 	<div class="col-md-2" align="center">
-		<button class="btn btn-primary">Asistir</button>
+		<button class="btn btn-primary"
+				(click)="alertaAsesoria()" >
+			Asistir
+		</button>
 	</div>
 
-	<div class="container">
+	<div 	class="container"
+			*ngIf="isLoggedIn">
 		<!-- Comentarios -->
 		<div class="form-group col-md-6" align="left">
 			<label>Comentarios:</label>
@@ -65,18 +71,11 @@
 				<option value="5">5</option>
 			</select>
 		</div>
-
-		<!-- Imagen Asesoría -->
-		<div class="col-md-4">
-			<img id="img-asesoria" src="/assets/img/muestra.jpg">
-		</div>
 			
 	</div>
 
 	<hr>
 <!-- ***************************** Final asesoría 1 ********************************** -->
-	
-
 
 	<!-- Asesoría 2 -->
 	<div class="table-responsive col-md-10">
@@ -90,6 +89,7 @@
 					<th>Horario</th>
 					<th>Salón</th>
 					<th>Ubicación</th>
+					<th>Puntuación</th>
 				</tr>
 			</thead>
 			<!-- Cuerpo de la tabla -->
@@ -101,16 +101,21 @@
 					<td>12:00 - 2:00 pm</td>
 					<td>I202</td>
 					<td>Agregar Imagen</td>
+					<td>3.5</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 
 	<div class="col-md-2" align="center">
-		<button class="btn btn-primary">Asistir</button>
+		<button class="btn btn-primary"
+				(click)="alertaAsesoria()" >
+			Asistir
+		</button>
 	</div>
 
-	<div class="container">
+	<div 	class="container"
+			*ngIf="isLoggedIn">
 		<!-- Comentarios -->
 		<div class="form-group col-md-6" align="left">
 			<label>Comentarios:</label>
@@ -136,20 +141,12 @@
 				<option value="5">5</option>
 			</select>
 		</div>
-
-		<!-- Imagen Asesoría -->
-		<div class="col-md-4">
-			<img id="img-asesoria" src="/assets/img/muestra.jpg">
-		</div>
 			
 	</div>
 
 	<hr>
 <!-- ***************************** Final asesoría 2 ********************************** -->
-
 	
-
-
 	<!-- Asesoría 3 -->
 	<div class="table-responsive col-md-10">
 		<table class="table table-condensed table-responsive">
@@ -162,6 +159,7 @@
 					<th>Horario</th>
 					<th>Salón</th>
 					<th>Ubicación</th>
+					<th>Puntuación</th>
 				</tr>
 			</thead>
 			<!-- Cuerpo de la tabla -->
@@ -173,16 +171,21 @@
 					<td>12:00 - 2:00 pm</td>
 					<td>I202</td>
 					<td>Agregar Imagen</td>
+					<td>3.5</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 
 	<div class="col-md-2" align="center">
-		<button class="btn btn-primary">Asistir</button>
+		<button class="btn btn-primary"
+				(click)="alertaAsesoria()" >
+			Asistir
+		</button>
 	</div>
 
-	<div class="container">
+	<div 	class="container"
+			*ngIf="isLoggedIn">
 		<!-- Comentarios -->
 		<div class="form-group col-md-6" align="left">
 			<label>Comentarios:</label>
@@ -208,19 +211,11 @@
 				<option value="5">5</option>
 			</select>
 		</div>
-
-		<!-- Imagen Asesoría -->
-		<div class="col-md-4">
-			<img id="img-asesoria" src="/assets/img/muestra.jpg">
-		</div>
 			
 	</div>
 
 	<hr>
 <!-- ***************************** Final asesoría 3 ********************************** -->
-
-	
-
 
 	<!-- Asesoría 4 -->
 	<div class="table-responsive col-md-10">
@@ -234,6 +229,7 @@
 					<th>Horario</th>
 					<th>Salón</th>
 					<th>Ubicación</th>
+					<th>Puntuación</th>
 				</tr>
 			</thead>
 			<!-- Cuerpo de la tabla -->
@@ -245,16 +241,21 @@
 					<td>12:00 - 2:00 pm</td>
 					<td>I202</td>
 					<td>Agregar Imagen</td>
+					<td>3.5</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 
 	<div class="col-md-2" align="center">
-		<button class="btn btn-primary">Asistir</button>
+		<button class="btn btn-primary"
+				(click)="alertaAsesoria()" >
+			Asistir
+		</button>
 	</div>
 
-	<div class="container">
+	<div 	class="container"
+			*ngIf="isLoggedIn">
 		<!-- Comentarios -->
 		<div class="form-group col-md-6" align="left">
 			<label>Comentarios:</label>
@@ -280,21 +281,13 @@
 				<option value="5">5</option>
 			</select>
 		</div>
-
-		<!-- Imagen Asesoría -->
-		<div class="col-md-4">
-			<img id="img-asesoria" src="/assets/img/muestra.jpg">
-		</div>
 			
 	</div>
 
 	<hr>
 <!-- ***************************** Final asesoría 4 ********************************** -->
 
-	
-
-
-	<!-- Asesoría 1 -->
+	<!-- Asesoría 5 -->
 	<div class="table-responsive col-md-10">
 		<table class="table table-condensed table-responsive">
 			<!-- Encabezados de la tabla -->
@@ -306,6 +299,7 @@
 					<th>Horario</th>
 					<th>Salón</th>
 					<th>Ubicación</th>
+					<th>Puntuación</th>
 				</tr>
 			</thead>
 			<!-- Cuerpo de la tabla -->
@@ -317,16 +311,21 @@
 					<td>12:00 - 2:00 pm</td>
 					<td>I202</td>
 					<td>Agregar Imagen</td>
+					<td>3.5</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 
 	<div class="col-md-2" align="center">
-		<button class="btn btn-primary">Asistir</button>
+		<button class="btn btn-primary"
+				(click)="alertaAsesoria()" >
+			Asistir
+		</button>
 	</div>
 
-	<div class="container">
+	<div 	class="container"
+			*ngIf="isLoggedIn">
 		<!-- Comentarios -->
 		<div class="form-group col-md-6" align="left">
 			<label>Comentarios:</label>
@@ -351,11 +350,6 @@
 				<option value="4">4</option>
 				<option value="5">5</option>
 			</select>
-		</div>
-
-		<!-- Imagen Asesoría -->
-		<div class="col-md-4">
-			<img id="img-asesoria" src="/assets/img/muestra.jpg">
 		</div>
 			
 	</div>

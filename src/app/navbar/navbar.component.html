@@ -41,11 +41,11 @@
 						</ul>
 					</li>
 					
-					<li>
+					<li *ngIf="!isLoggedIn">
 						<a href="/login">Login</a>
 					</li>
 					
-					<li>
+					<li *ngIf="!isLoggedIn">
 						<a href="/registro">Registro</a>
 					</li>
 
