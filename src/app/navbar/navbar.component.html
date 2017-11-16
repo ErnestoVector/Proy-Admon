@@ -49,6 +49,10 @@
 						<a href="/registro">Registro</a>
 					</li>
 
+					<li *ngIf="isLoggedIn">
+						<a href="/home">Salir</a>
+					</li>
+
 					<li>
 						<a href="/contacto">Contacto</a>
 					</li>
