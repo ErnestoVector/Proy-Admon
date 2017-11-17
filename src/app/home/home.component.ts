@@ -12,4 +12,8 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
+  alertaAsesoria() {
+  	alert("Tu asesoría comenzará pronto")
+  }
+
 }

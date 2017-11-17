@@ -9,7 +9,7 @@ export class CienciasBasicasComponent implements OnInit {
 
 	//De esta variable depende si se muestra o no la seccioón de comentarios
 	//Crear función que genere true si es que está loggeado
-	private isLoggedIn: Boolean = false;
+	private isLoggedIn: Boolean = true;
 
   constructor() { }
 
